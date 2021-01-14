@@ -10,6 +10,10 @@ export const isCollectionOrModel = x =>
 export const getCollection = x => (isModel(x) ? x.collection : x)
 
 export const isObjectId = id => {
+  if (id == null) {
+    return false
+  }
+
   // Extracted from:
   // https://github.com/mongodb/js-bson/blob/master/src/objectid.ts#L312
   if (id instanceof ObjectId) {
