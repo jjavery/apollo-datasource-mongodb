@@ -1,6 +1,6 @@
 {
-  "name": "apollo-datasource-mongodb",
-  "version": "0.3.0",
+  "name": "@jjavery/apollo-datasource-mongodb",
+  "version": "0.3.1",
   "description": "Apollo data source for MongoDB",
   "main": "dist/index.js",
   "types": "index.d.ts",
@@ -37,23 +37,17 @@
     "release": "^6.3.0",
     "waait": "^1.0.5"
   },
-  "homepage": "https://github.com/GraphQLGuide/apollo-datasource-mongodb",
+  "homepage": "https://github.com/jjavery/apollo-datasource-mongodb",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GraphQLGuide/apollo-datasource-mongodb"
+    "url": "git+https://github.com/jjavery/apollo-datasource-mongodb"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GraphQLGuide/apollo-datasource-mongodb/issues"
+    "url": "https://github.com/jjavery/apollo-datasource-mongodb/issues"
   },
-  "author": "Loren Sands-Ramshaw <loren@graphql.guide> (https://graphql.guide)",
-  "keywords": [
-    "apollo",
-    "datasource",
-    "data source",
-    "mongodb",
-    "mongo"
-  ],
+  "author": "James P. Javery <james.javery@gmail.com>",
+  "keywords": [],
   "files": [
     "/dist",
     "index.d.ts"
