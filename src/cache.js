@@ -1,12 +1,11 @@
 import DataLoader from 'dataloader'
-import { ObjectId } from 'mongodb'
-import { EJSON } from 'bson'
+import { EJSON, ObjectId } from 'bson'
 
-import { getCollection } from './helpers'
+import { getCollection, isObjectId } from './helpers'
 
-export const idToString = id => (id instanceof ObjectId ? id.toHexString() : id)
+export const idToString = id => (isObjectId(id) ? id.toHexString() : id)
 const stringToId = str => {
-  if (str instanceof ObjectId) {
+  if (isObjectId(str)) {
     return str
   }
 
